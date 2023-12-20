@@ -90,6 +90,7 @@ message(STATUS "")
 add_subdirectory(${${PROJECT_NAME}_THIRDPARTY_PATH})
 add_subdirectory(${${PROJECT_NAME}_MODULE_PATH})
 add_subdirectory(${${PROJECT_NAME}_APPLICATION_PATH})
+
 set(${PROJECT_NAME}_SOURCE_FILES
 
   # ! Add source files here
@@ -116,6 +117,8 @@ set(${PROJECT_NAME}_SOURCE_FILES
 # ! Add libraries here
 # )
 # add_dependencies(${PROJECT_NAME}
+
+# include(cmake/create_documents.cmake)
 
 # ! Add dependencies here
 # )
